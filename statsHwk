@@ -1,0 +1,254 @@
+
+
+package statscorrelation;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Jeevan Chana
+ */
+public class StatsCorrelation {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+         Scanner scan = new Scanner(System.in);
+         
+                    
+         System.out.println("Enter value for A-Level 'A'");
+         float a = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'B'");
+         float b = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'C'");
+         float c = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'D'");
+         float d = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'E'");
+         float e = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'F'");
+         float f = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'G'");
+         float g = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'H'");
+         float h = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'I'");
+         float i = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'J'");
+         float j = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'K'");
+         float k = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'L'");
+         float l = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'M'");
+         float m = scan.nextFloat();
+         
+         System.out.println("Enter value for A-Level 'N'");
+         float n = scan.nextFloat();
+        
+         System.out.println("Enter value for A-Level 'O'");
+         float o = scan.nextFloat();
+         
+         
+         
+         
+                    
+         System.out.println("Enter value for GCSE 'A'");
+         float a1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'B'");
+         float b1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'C'");
+         float c1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'D'");
+         float d1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'E'");
+         float e1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'F'");
+         float f1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'G'");
+         float g1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'H'");
+         float h1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'I'");
+         float i1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'J'");
+         float j1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'K'");
+         float k1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'L'");
+         float l1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'M'");
+         float m1 = scan.nextFloat();
+         
+         System.out.println("Enter value for GCSE 'N'");
+         float n1 = scan.nextFloat();
+        
+         System.out.println("Enter value for GCSE 'O'");
+         float o1 = scan.nextFloat();
+         
+         
+         System.out.println("Your A-Level values (x values) are: ");
+         System.out.println("A= " + a);
+         System.out.println("B=" + b);
+         System.out.println("C= " + c);
+         System.out.println("D= " + d);
+         System.out.println("E= " + e);
+         System.out.println("F= " + f);
+         System.out.println("G= " + g);
+         System.out.println("H= " + h);
+         System.out.println("I= " + i);
+         System.out.println("J= " + j);
+         System.out.println("K= " + k);
+         System.out.println("L= " + l);
+         System.out.println("M= " + m);
+         System.out.println("N= " + n);
+         System.out.println("O= " + o);
+         
+         
+         
+         
+         System.out.println("Your GCSE values (y values) are: ");
+         System.out.println("A= " + a1);
+         System.out.println("B= " + b1);
+         System.out.println("C= " + c1);
+         System.out.println("D= " + d1);
+         System.out.println("E= " + e1);
+         System.out.println("F= " + f1);
+         System.out.println("G= " + g1);
+         System.out.println("H= " + h1);
+         System.out.println("I= " + i1);
+         System.out.println("J= " + j1);
+         System.out.println("K= " + k1);
+         System.out.println("L= " + l1);
+         System.out.println("M= " + m1);
+         System.out.println("N= " + n1);
+         System.out.println("O= " + o1);
+       
+         
+         double sumOfX = a+b+c+d+e+f+g+h+i+j+k+l+m+n+o;
+         double meanOfX = sumOfX/15;
+         
+         double sumOfY = a1+b1+c1+d1+e1+f1+g1+h1+i1+j1+k1+l1+m1+n1+o1;
+         double meanOfY = sumOfY/15;
+         
+         
+         double A_A = a-meanOfX;
+         double A_B = b-meanOfX;
+         double A_C = c-meanOfX;
+         double A_D = d-meanOfX;
+         double A_E = e-meanOfX;
+         double A_F = f-meanOfX;
+         double A_G = g-meanOfX;
+         double A_H = h-meanOfX;
+         double A_I = i-meanOfX;
+         double A_J = j-meanOfX;
+         double A_K = k-meanOfX;
+         double A_L = l-meanOfX;
+         double A_M = m-meanOfX;
+         double A_N = n-meanOfX;
+         double A_O = o-meanOfX;
+         
+         double B_A = a1-meanOfY;
+         double B_B = b1-meanOfY;
+         double B_C = c1-meanOfY;
+         double B_D = d1-meanOfY;
+         double B_E = e1-meanOfY;
+         double B_F = f1-meanOfY;
+         double B_G = g1-meanOfY;
+         double B_H = h1-meanOfY;
+         double B_I = i1-meanOfY;
+         double B_J = j1-meanOfY;
+         double B_K = k1-meanOfY;
+         double B_L = l1-meanOfY;
+         double B_M = m1-meanOfY;
+         double B_N = n1-meanOfY;
+         double B_O = o1-meanOfY;
+         
+         double AA = A_A * B_A;
+         double BB = A_B * B_B;
+         double CC = A_C * B_C;
+         double DD = A_D * B_D;
+         double EE = A_E * B_E;
+         double FF = A_F * B_F;
+         double GG = A_G * B_G;
+         double HH = A_H * B_H;
+         double II = A_I * B_I;
+         double JJ = A_J * B_J;
+         double KK = A_K * B_K;
+         double LL = A_L * B_L;
+         double MM = A_M * B_M;
+         double NN = A_N * B_N;
+         double OO = A_O * B_O;
+        
+         double sumOfXX = AA+BB+CC+DD+EE+FF+GG+HH+II+JJ+KK+LL+MM+NN+OO;
+         
+         double aa = A_A * A_A;
+         double bb = A_B * A_B;
+         double cc = A_C * A_C;
+         double dd = A_D * A_D;
+         double ee = A_E * A_E;
+         double ff = A_F * A_F;
+         double gg = A_G * A_G;
+         double hh = A_H * A_H;
+         double ii = A_I * A_I;
+         double jj = A_J * A_J;
+         double kk = A_K * A_K;
+         double ll = A_L * A_L;
+         double mm = A_M * A_M;
+         double nn = A_N * A_N;
+         double oo = A_O * A_O;
+         
+         double aa1 = B_A * B_A;
+         double bb1 = B_B * B_B;
+         double cc1 = B_C * B_C;
+         double dd1 = B_D * B_D;
+         double ee1 = B_E * B_E;
+         double ff1 = B_F * B_F;
+         double gg1 = B_G * B_G;
+         double hh1 = B_H * B_H;
+         double ii1 = B_I * B_I;
+         double jj1 = B_J * B_J;
+         double kk1 = B_K * B_K;
+         double ll1 = B_L * B_L;
+         double mm1 = B_M * B_M;
+         double nn1 = B_N * B_N;
+         double oo1 = B_O * B_O;
+         
+         double sumOf2a = aa+bb+cc+dd+ee+ff+gg+hh+ii+jj+kk+ll+mm+nn+oo;
+         double sumOf2b = aa1+bb1+cc1+dd1+ee1+ff1+gg1+hh1+ii1+jj1+kk1+ll1+mm1+nn1+oo1;
+         
+         double num1 = sumOfXX;
+         double num4 = sumOf2a * sumOf2b;
+         double num2 = Math.sqrt(num4);
+         double num3 = num1/num2;
+         
+         System.out.println("The final answer is: " + num3);
+         
+    
+    }
+}
